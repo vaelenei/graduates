@@ -1,0 +1,332 @@
+*{
+  font-family: sans-serif,serif;
+}
+header > img{
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+}
+nav {
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 25px;
+}
+#navLeft{
+  width: 50%;
+  float: left;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+#navRight{
+  width: 45%;
+  float: right;
+  margin-top: 5px;
+}
+#navLeft li{
+  display: inline;
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+  font-size: 20px;
+}
+#navRight li {
+  display: inline;
+  list-style-type: none;
+  float : right;
+}
+#navRight li img{
+  width: 30px;
+  height: 30px;
+}
+#bigPicture img{
+  width: 95%;
+  height: 100%;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+#titlu {
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 30px;
+}
+#imgLeft img,#imgRight img{
+  width: 44%;
+  height: 110%;
+}
+#imgLeft,#titluText,#imgRight{
+  display: inline;
+}
+#titluText{
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#pictures{
+  display: inline;
+  margin-bottom: 30px;
+}
+#pictures img{
+  width: 30%;
+  height: 30%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+#subtitle{
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 30px;
+}
+#imgLeft1 img,#imgRight1 img{
+  width: 45%;
+  height: 110%;
+}
+#imgLeft1,#subtitluText,#imgRight1{
+  display: inline;
+}
+#subtitluText{
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #D3D3D3;
+  }
+main p{
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+#sectionLeft{
+  float: left;
+  width: 50%;
+  height: 420px;
+  margin-bottom: 30px;
+}
+#subtitle1 ,#subtitle2{
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+section img{
+  margin-left: 35%;
+}
+#sectionRight{
+  float: right;
+  width: 50%;
+  height: 420px;;
+  margin-bottom: 30px;
+}
+
+footer {
+    --width: 100%;
+    height: 45px;
+    background:#B0B0B0;
+    margin-top: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+footer  div{
+    width: 50%;
+    float: left;
+
+}
+footer  ul{
+    width: 45%;
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-left: 0px;
+
+}
+footer ul li{
+  display: inline;
+}
+
+main{
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  nav {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #bigPicture img{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  #titlu {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #imgLeft img,#imgRight img{
+    width: 38%;
+  }
+  #titluText{
+    font-size: 17px;
+  }
+  #pictures img{
+    width: 32%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+  #pictures img:nth-last-child(1){
+    margin-right: 0px;
+  }
+
+  #subtitle{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #imgLeft1 img,#imgRight1 img{
+    width: 40%;
+    height: 110%;
+  }
+  #subtitluText{
+    font-size: 13px;
+  }
+  main > p{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 11px;
+  }
+  #sectionLeft{
+    width: 48%;
+  }
+  #subtitle1 ,#subtitle2{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  section img{
+    margin-left: 30%;
+  }
+  #sectionRight{
+    width: 48%;
+  }
+
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 767px) and (orientation: portrait){
+  header > img{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+  }
+  nav {
+    border-bottom-style: none;
+  }
+  #navLeft{
+    width: 100%;
+    float: none;
+  }
+  #navRight{
+    width: 100%;
+    float: right;
+  }
+  #navLeft li{
+    display: inline;
+    list-style-type: none;
+    float:none;
+    margin-right: 10px;
+    font-size: 40px;
+  }
+  #navLeft li:nth-child(1){
+    margin-left: 30%;
+  }
+  #navRight li img{
+    width: 60px;
+    height: 60px;
+  }
+  #imgLeft img,#imgRight img{
+    width: 28%;
+  }
+  #titluText{
+    font-size: 17px;
+  }
+  #pictures img{
+    width: 96%;
+    height: 90%;
+  }
+  #imgLeft1 img,#imgRight1 img{
+    width: 30%;
+    height: 110%;
+  }
+  #subtitluText{
+    font-size: 13px;
+  }
+  main > p{
+    text-align: center;
+    font-size: 11px;
+  }
+  section{
+    height: 400px;
+  }
+  #sectionLeft{
+    float: none;
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 20px;
+  }
+  #sectionRight{
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 500px;
+  }
+  #subtitle1 ,#subtitle2{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    font-size: 50px;
+  }
+  section img{
+    margin-left: 25%;
+    height:510px;
+  }
+  section p{
+    font-size: 35px;
+  }
+  footer ul li{
+    display: none;
+  }
+  footer div{
+    color: white;
+  }
+}

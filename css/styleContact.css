@@ -1,0 +1,131 @@
+*{
+  font-family: sans-serif,serif;
+
+}
+header > img{
+  width: 20%;
+  height: 20%;
+  margin-left: 40%;
+}
+nav {
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 25px;
+}
+#navLeft{
+  width: 50%;
+  float: left;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+#navRight{
+  width: 45%;
+  float: right;
+  margin-top: 5px;
+}
+#navLeft li{
+  display: inline;
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+  font-size: 20px;
+}
+#navRight li {
+  display: inline;
+  list-style-type: none;
+  float : right;
+}
+#navRight li img{
+  width: 30px;
+  height: 30px;
+}
+
+#titlu {
+
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+#imgLeft img,#imgRight img{
+  width: 42.5%;
+  height: 28px;
+}
+#imgLeft,#titluText,#imgRight{
+  display: inline;
+}
+#titluText{
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color:#A9A9A9;
+}
+main{
+  margin-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+a{
+  text-decoration: none;
+  color:#A9A9A9;
+}
+footer {
+    height: 45px;
+    background:#B0B0B0;
+    margin-top: 100px;
+    color:#FFFFF0;
+}
+footer a{
+  color:#FFFFF0;
+}
+footer div{
+    width: 50%;
+    float: left;
+    color:#FFFFF0;
+
+}
+footer  ul{
+    width: 45%;
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+footer ul li{
+  display: inline;
+}
+#nameInput,#websiteInput,#emailInput{
+  width: 32%;
+  height: 50px;
+  font-size: 20px;
+}
+#nameInput,#emailInput{
+  margin-right: 10px;
+}
+#messageInput{
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  font-size: 20px;
+  text-align: justify;
+}
+#submitButton{
+  width:15%;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  font-size: 20px;
+  float:right;
+  margin-top: 20px;
+}
+#nameInput,#websiteInput,#emailInput,#messageInput{
+  color:#A9A9A9;
+}
